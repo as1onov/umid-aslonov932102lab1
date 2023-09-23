@@ -1,0 +1,140 @@
+/* Сброс стилей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aaa{
+    text-align: center;
+   
+}
+/* Основной контейнер страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* Заголовок страницы */
+header {
+    background-color: #14b036;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+
+span {
+   
+    color: rgb(240, 1, 1);
+}
+/* Основное содержание страницы */
+.ds{
+    width: 100px;
+    height: 100px; 
+    border: 5px solid rgb(243, 242, 242);
+    border-radius :20px 1px 20px 1px; 
+    float: left;
+    clear: both;
+    margin-right: 16px;
+ }
+ 
+.content {
+
+            padding-top:30px;
+            padding-left: 30px;
+            padding-right: 25px;
+            width: 80%;
+            height: 600px;
+            margin: auto;
+            border: 1px solid red;
+            background-color: blue;
+            color: white;
+
+  
+}
+
+    
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+
+.content ul{
+    padding-left: 50px;
+}
+
+
+.content ul li {
+    margin-bottom: 17px;
+
+}
+.content  dl dt {
+    margin-bottom: 17px;
+
+}
+
+a:link {
+    color: red;
+}
+
+
+
+
+
+#table1 {
+    letter-spacing: 5px;
+    color: aqua;
+}
+
+.table1 {
+    font-size: 20px;
+    
+}
+
+.table2 {
+    padding-top:30px;
+    color: white;
+    float: left;
+    margin-top: -30px;
+    margin-right: 139px;
+}
+
+#col {
+    vertical-align: bottom;
+}
+
+
+.table-big {
+    
+    width: 130px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    border:solid  White;
+    
+    
+}
+.table-big td{
+   border:solid white;
+   margin:0.5px;
+
+}
+.image {
+    position: relative;
+    left: 65px;
+    top: 20px;}
+/* Подвал страницы */
+footer {
+    background-color: #35ad10;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
